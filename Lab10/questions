@@ -1,0 +1,38 @@
+Q (4) Facts about if statements
+A > have 1 "if" part, 0-many "else ifs", and possibly an "else"
+  > ifs are branching statements
+  > do their tests in a top to bottom order
+  > only one test or else will "pass"
+Q True && False ==
+A False
+Q True || True ==
+A True
+Q !True ==
+A False
+Q True ^ True ==
+A False
+Q True || False ==
+A True
+Q False && False ==
+A False
+Q (3) Facts about byte types
+A Bytes:
+  > kind of value is integer
+  > memory used is 1 byte
+  > range of values -128 to 127
+Q (2) Facts about boolean types
+A Booleans:
+  > memory used is 1 bit
+  > true or false
+Q (2) Facts about double types
+A Doubles:
+  > kind of value is floating-point
+  > memory used is 8 bytes
+Q (2) Facts about float types
+A Floats:
+  > kind of value is floating-point
+  > memory used is 4 bytes
+Q (2) Facts about char types
+A Chars:
+  > kind of value is single character
+  > memory used is 2 bytes
